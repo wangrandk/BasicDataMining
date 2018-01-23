@@ -6,49 +6,10 @@
     <Name>BasicDataMining.database</Name>
     <FullPath>BasicDataMining.database</FullPath>
   </Database>
-  <DataSources>
-    <ProjectItem>
-      <Name>Adventure Works DW2012.ds</Name>
-      <FullPath>Adventure Works DW2012.ds</FullPath>
-    </ProjectItem>
-  </DataSources>
-  <DataSourceViews>
-    <ProjectItem>
-      <Name>Targeted Mailing.dsv</Name>
-      <FullPath>Targeted Mailing.dsv</FullPath>
-    </ProjectItem>
-  </DataSourceViews>
-  <MiningModels>
-    <ProjectItem>
-      <Name>Targeted Mailing.dmm</Name>
-      <FullPath>Targeted Mailing.dmm</FullPath>
-    </ProjectItem>
-  </MiningModels>
-  <Roles>
-    <ProjectItem>
-      <Name>Role.role</Name>
-      <FullPath>Role.role</FullPath>
-    </ProjectItem>
-  </Roles>
   <Configurations>
     <Configuration>
       <Name>Development</Name>
-      <Options>
-        <ConnectionMappings>
-          <ConfigurationSetting>
-            <Id>Adventure Works DW2012</Id>
-            <Name>Adventure Works DW2012</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=RAN-THINKPAD\SSIS_SSAS_ML;Integrated Security=SSPI;Initial Catalog=AdventureWorksDW2012</Value>
-          </ConfigurationSetting>
-        </ConnectionMappings>
-        <ConnectionSecurityMappings>
-          <ConfigurationSetting>
-            <Id>Adventure Works DW2012</Id>
-            <Name>Adventure Works DW2012</Name>
-            <Value xsi:type="xsd:int">0</Value>
-          </ConfigurationSetting>
-        </ConnectionSecurityMappings>
-      </Options>
+      <Options />
     </Configuration>
   </Configurations>
 </Project>
