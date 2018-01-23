@@ -10,4 +10,18 @@
     <ImpersonationMode>Default</ImpersonationMode>
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
   </DataSourceImpersonationInfo>
+  <MiningStructures />
+  <DataSources />
+  <DataSourceViews />
+  <Roles />
+  <DatabasePermissions>
+    <DatabasePermission dwd:design-time-name="a64b9f24-7613-4d7f-aaf1-782f2c77d61d">
+      <ID>DatabasePermission</ID>
+      <Name>DatabasePermission</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <RoleID>Role</RoleID>
+      <Read>Allowed</Read>
+    </DatabasePermission>
+  </DatabasePermissions>
 </Database>
